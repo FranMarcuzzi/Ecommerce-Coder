@@ -22,7 +22,7 @@ const ItemDetail = ({ navigation, route }) => {
             resizeMode="cover"
           />
           <View style={styles.textContainer}>
-            <Text style={styles.descriptionTitle}>{product.title}</Text>
+            <Text style={styles.descriptionText}>{product.title}</Text>
             <Text style={styles.descriptionText}>{product.description}</Text>
             <Text style={styles.descriptionTextPrice}>${product.price}</Text>
             <Pressable style={styles.buy}>
